@@ -1,0 +1,28 @@
+{
+  "name": "sample-test",
+  "version": "1.0.0",
+  "description": "sample test for ecommerce website",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "clear && rm -rf output",
+    "test": "npx codeceptjs run --steps --reporter mochawesome",
+    "debug": "clear && rm -rf output && npx codeceptjs run --steps ./tests/SearchProduct_test.js"
+  },
+  "keywords": [
+    "codecept",
+    "playwright"
+  ],
+  "author": "Rahul Upadhyay",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mochawesome": "^7.1.3"
+  },
+  "devDependencies": {
+    "codeceptjs": "^3.3.3",
+    "mocha": "^10.0.0",
+    "playwright": "^1.23.2"
+  }
+}

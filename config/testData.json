@@ -1,0 +1,10 @@
+{
+  "searchTerms": {
+    "valid": "Hammer",
+    "invalid": "Air conditioner"
+  },
+  "messages": {
+    "noProductFoundInSearch": "Wir konnten leider nichts zu",
+    "searchResults": "Suchergebnisse für"
+  }
+}
